@@ -1,4 +1,4 @@
-#indef KINEMATICS_UTILS_HPP
+#ifndef KINEMATICS_UTILS_HPP
 #define KINEMATICS_UTILS_HPP
 
 #include<cmath>
