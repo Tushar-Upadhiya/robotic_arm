@@ -30,6 +30,30 @@
         T.block<3,1>(0,3) = P;
         return T;
     }
+
+    inline Eigen::Matrix4d transform_axis_angle(const Eigen::Vector3d& axis, double theta, const Eigen::Vector3d& translation) {
+        Eigen::Matrix3d R = rodrigues_rotation(axis, theta);
+        return create_transform(R, translation);
+    }
+
+    
+    inline Eigen::Matrix4d translate(double x, double y, double z) {
+        Eigen::Matrix4d T = Eigen::Matrix4d::Identity();
+        T(0, 3) = x;
+        T(1, 3) = y;
+        T(2, 3) = z;
+        return T;
+    }
+
+
+    inline Eigen::Matrix4d dh_transform(double theta, double d, double a, double alpha) {
+        Eigen::Matrix4d T;
+        T << cos(theta), -sin(theta)*cos(alpha),  sin(theta)*sin(alpha), a*cos(theta),
+             sin(theta),  cos(theta)*cos(alpha), -cos(theta)*sin(alpha), a*sin(theta),
+             0,           sin(alpha),             cos(alpha),            d,
+             0,           0,                      0,                     1;
+        return T;
+    }
  }
 
  #endif
