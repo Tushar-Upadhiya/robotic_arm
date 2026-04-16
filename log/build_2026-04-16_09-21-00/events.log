@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (robotic_arm) JobQueued: {'identifier': 'robotic_arm', 'dependencies': OrderedDict()}
+[0.000464] (robotic_arm) JobStarted: {'identifier': 'robotic_arm'}
+[0.005724] (robotic_arm) JobProgress: {'identifier': 'robotic_arm', 'progress': 'cmake'}
+[0.005968] (robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/robotic_arm/src/robotic_arm', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/robotic_arm/install/robotic_arm'], 'cwd': '/workspaces/robotic_arm/build/robotic_arm', 'env': OrderedDict([('HOSTNAME', 'archlinux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/browser.sh'), ('HOME', '/home/Tushar'), ('OLDPWD', '/workspaces/robotic_arm'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2ae6848b-4e04-42b4-bac5-39a4410df4c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-e14329fa-e14f-4c9b-ba7f-e7a87df46fe9.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-32cbb6b0-b821-4005-b028-320f51dbf150.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/Tushar/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/Tushar/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/Tushar/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-60ee05da0c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '4a02220c-e172-41cd-8d20-41bb788bf806'), ('PWD', '/workspaces/robotic_arm/build/robotic_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042329] (robotic_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076431] (robotic_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.081185] (robotic_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099878] (-) TimerEvent: {}
+[0.125480] (robotic_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.130561] (robotic_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.130737] (robotic_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.130963] (robotic_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.133003] (robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.182848] (robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.187731] (robotic_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.187923] (robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.188245] (robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.190057] (robotic_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199977] (-) TimerEvent: {}
+[0.286874] (robotic_arm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300023] (-) TimerEvent: {}
+[0.330555] (robotic_arm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.351232] (robotic_arm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.378481] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.382297] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.388217] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.396217] (robotic_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400097] (-) TimerEvent: {}
+[0.406941] (robotic_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.437897] (robotic_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.439937] (robotic_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500310] (-) TimerEvent: {}
+[0.503951] (robotic_arm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.526168] (robotic_arm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.561976] (robotic_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.568849] (robotic_arm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600380] (-) TimerEvent: {}
+[0.615888] (robotic_arm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.616418] (robotic_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.664917] (robotic_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.665673] (robotic_arm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700419] (robotic_arm) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700569] (-) TimerEvent: {}
+[0.770305] (robotic_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.776912] (robotic_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.779206] (robotic_arm) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/robotic_arm/build/robotic_arm\n'}
+[0.785710] (robotic_arm) CommandEnded: {'returncode': 0}
+[0.786150] (robotic_arm) JobProgress: {'identifier': 'robotic_arm', 'progress': 'build'}
+[0.786775] (robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/robotic_arm/build/robotic_arm', '--', '-j12', '-l12'], 'cwd': '/workspaces/robotic_arm/build/robotic_arm', 'env': OrderedDict([('HOSTNAME', 'archlinux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/browser.sh'), ('HOME', '/home/Tushar'), ('OLDPWD', '/workspaces/robotic_arm'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2ae6848b-4e04-42b4-bac5-39a4410df4c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-e14329fa-e14f-4c9b-ba7f-e7a87df46fe9.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-32cbb6b0-b821-4005-b028-320f51dbf150.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/Tushar/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/Tushar/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/Tushar/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-60ee05da0c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '4a02220c-e172-41cd-8d20-41bb788bf806'), ('PWD', '/workspaces/robotic_arm/build/robotic_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.800688] (-) TimerEvent: {}
+[0.819378] (robotic_arm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o\x1b[0m\n'}
+[0.900778] (-) TimerEvent: {}
+[1.001028] (-) TimerEvent: {}
+[1.101272] (-) TimerEvent: {}
+[1.201538] (-) TimerEvent: {}
+[1.301812] (-) TimerEvent: {}
+[1.402109] (-) TimerEvent: {}
+[1.502381] (-) TimerEvent: {}
+[1.602654] (-) TimerEvent: {}
+[1.702933] (-) TimerEvent: {}
+[1.803206] (-) TimerEvent: {}
+[1.903486] (-) TimerEvent: {}
+[2.003751] (-) TimerEvent: {}
+[2.104103] (-) TimerEvent: {}
+[2.204379] (-) TimerEvent: {}
+[2.304694] (-) TimerEvent: {}
+[2.404956] (-) TimerEvent: {}
+[2.505214] (-) TimerEvent: {}
+[2.605512] (-) TimerEvent: {}
+[2.705782] (-) TimerEvent: {}
+[2.806124] (-) TimerEvent: {}
+[2.906385] (-) TimerEvent: {}
+[3.006666] (-) TimerEvent: {}
+[3.106957] (-) TimerEvent: {}
+[3.207235] (-) TimerEvent: {}
+[3.307511] (-) TimerEvent: {}
+[3.407784] (-) TimerEvent: {}
+[3.443630] (robotic_arm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arm_node\x1b[0m\n'}
+[3.507944] (-) TimerEvent: {}
+[3.535454] (robotic_arm) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[3.535599] (robotic_arm) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[3.538581] (robotic_arm) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[3.539822] (robotic_arm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:175: arm_node] Error 1\n'}
+[3.539949] (robotic_arm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2\n'}
+[3.540240] (robotic_arm) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.542067] (robotic_arm) CommandEnded: {'returncode': 2}
+[3.549308] (robotic_arm) JobEnded: {'identifier': 'robotic_arm', 'rc': 2}
+[3.559728] (-) EventReactorShutdown: {}

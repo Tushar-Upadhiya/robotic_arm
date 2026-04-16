@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/robotic_arm/build/robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12
+Invoked command in '/workspaces/robotic_arm/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12
+Invoking command in '/workspaces/robotic_arm/build/robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/robotic_arm/build/robotic_arm
+Invoked command in '/workspaces/robotic_arm/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/robotic_arm/build/robotic_arm

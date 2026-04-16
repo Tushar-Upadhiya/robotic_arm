@@ -1,0 +1,10 @@
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/uninstall.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/robotic_arm_uninstall.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/arm_node.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/test.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/edit_cache.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/rebuild_cache.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/list_install_components.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/install.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/install/local.dir
+/workspaces/robotic_arm/build/robotic_arm/CMakeFiles/install/strip.dir

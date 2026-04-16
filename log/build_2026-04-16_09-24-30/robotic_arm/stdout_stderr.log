@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable arm_node[0m
+[100%] Built target arm_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/lib/robotic_arm/arm_node
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/package_run_dependencies/robotic_arm
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/parent_prefix_path/robotic_arm
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/path.sh
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/path.dsv
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.bash
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.sh
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.zsh
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.dsv
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/package.dsv
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig.cmake
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig-version.cmake
+-- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/package.xml

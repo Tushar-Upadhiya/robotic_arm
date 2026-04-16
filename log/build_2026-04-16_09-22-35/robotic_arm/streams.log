@@ -1,0 +1,10 @@
+[0.008s] Invoking command in '/workspaces/robotic_arm/build/robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target arm_node[0m
+[0.045s] [ 50%] [32m[1mLinking CXX executable arm_node[0m
+[0.112s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.112s] (.text+0x1b): undefined reference to `main'
+[0.117s] collect2: error: ld returned 1 exit status
+[0.119s] gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:175: arm_node] Error 1
+[0.119s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+[0.119s] gmake: *** [Makefile:146: all] Error 2
+[0.120s] Invoked command in '/workspaces/robotic_arm/build/robotic_arm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12

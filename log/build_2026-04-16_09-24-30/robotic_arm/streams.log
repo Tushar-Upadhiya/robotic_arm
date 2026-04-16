@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/workspaces/robotic_arm/build/robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[2.784s] [100%] [32m[1mLinking CXX executable arm_node[0m
+[2.873s] [100%] Built target arm_node
+[2.879s] Invoked command in '/workspaces/robotic_arm/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/robotic_arm/build/robotic_arm -- -j12 -l12
+[2.885s] Invoking command in '/workspaces/robotic_arm/build/robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/robotic_arm/build/robotic_arm
+[2.890s] -- Install configuration: ""
+[2.890s] -- Execute custom install script
+[2.890s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/lib/robotic_arm/arm_node
+[2.895s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/package_run_dependencies/robotic_arm
+[2.900s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/parent_prefix_path/robotic_arm
+[2.906s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.sh
+[2.911s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.dsv
+[2.916s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/path.sh
+[2.922s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/environment/path.dsv
+[2.928s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.bash
+[2.933s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.sh
+[2.939s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.zsh
+[2.945s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/local_setup.dsv
+[2.950s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/package.dsv
+[2.955s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
+[2.961s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig.cmake
+[2.967s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig-version.cmake
+[2.972s] -- Symlinking: /workspaces/robotic_arm/install/robotic_arm/share/robotic_arm/package.xml
+[2.978s] Invoked command in '/workspaces/robotic_arm/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/robotic_arm/build/robotic_arm
